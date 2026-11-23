@@ -32,6 +32,8 @@ cargo run -p cerbero-cli -- --version   # run the CLI
 | `crates/cerbero-cli` | The `cerbero` command. |
 | `docs/decisions` | Decision records. |
 | `docs/languages/rust.md` | Coding and secret-handling rules. |
+| `docs/testing.md` | Where tests go and what must be covered. |
+| `fuzz/` | Fuzz targets (nightly, outside the workspace). |
 
 ## Working together
 

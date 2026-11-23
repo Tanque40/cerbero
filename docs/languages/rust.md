@@ -8,6 +8,7 @@ These rules apply to every crate in this workspace. `make check` enforces the on
 - `crates/cerbero-core` holds the vault format and all cryptography. It performs no I/O: no files, terminal, environment variables or network. It never prints **(enforced: `clippy::print_stdout`, `clippy::print_stderr`)**.
 - `crates/cerbero-cli` owns user interaction, files and process exit codes.
 - `Cargo.lock` is committed. CI builds with `--locked`.
+- Tests follow [`docs/testing.md`](../testing.md).
 
 ## Safety and errors
 
