@@ -10,4 +10,7 @@ All notable changes to this project are recorded here. The format follows [Keep 
 - Cargo workspace with `cerbero-core` and `cerbero-cli`, pinned toolchain and workspace lints.
 - `make check` runs rustfmt, clippy, tests and cargo-deny; CI runs it on Linux and tests on macOS.
 - Decision records 0001-0004 and Rust rules for handling secrets.
+- Threat model, architecture overview, code and commit conventions.
+- `make lint` with typos, zizmor and cargo-machete, run in CI.
+- `scripts/github-settings.sh` to apply repository settings and the `main` ruleset.
 - Test layout (`docs/testing.md`): integration tests for the core, end-to-end tests for the CLI, and folders for test vectors and fuzzing.

@@ -1,12 +1,12 @@
 # Reporting a vulnerability
 
-If this repository has GitHub private vulnerability reporting enabled, open **Security → Advisories → Report a vulnerability**. Include the affected version or revision, the behavior you observed, and its likely impact. Remove credentials and personal data from any evidence you share.
+Cerbero stores passwords, SSH keys and infrastructure credentials, so we treat every report seriously.
 
-If a private reporting route is unavailable, ask a maintainer how to reach them privately. Keep vulnerability details out of public issues, pull requests, and discussions.
+Report privately through **Security → Advisories → Report a vulnerability** on [the repository](https://github.com/Tanque40/cerbero/security/advisories/new). Include the affected version or commit, the behavior you observed, and its likely impact. Remove real credentials and personal data from any evidence you share. Do not open a public issue, pull request or discussion about a vulnerability.
 
 ## Supported versions
 
-<!-- Replace this table once the project publishes releases. List only versions that will actually receive security fixes. -->
+Cerbero has not published a release yet. Only the latest commit on `main` receives security fixes.
 
 | Version | Receives security fixes |
 | ------- | ----------------------- |
@@ -14,8 +14,11 @@ If a private reporting route is unavailable, ask a maintainer how to reach them 
 
 ## Response
 
-<!-- State only commitments the team can sustain, for example: "We acknowledge reports within 5 business days." -->
+Cerbero is maintained by one person in their spare time. We commit to:
 
-## Before publishing this project
+- Acknowledge your report within **7 calendar days**.
+- Give an initial assessment (valid or not, and severity) within **14 calendar days**.
+- Keep you informed of progress until it is fixed. We do not commit to a fix date, but we prioritize issues that expose vault contents or keys.
+- Coordinate disclosure with you, publish a GitHub security advisory once a fix is available, and credit you unless you prefer otherwise.
 
-Maintainers should enable private vulnerability reporting or publish another monitored private channel here. Verify that an external reporter can find the channel and that someone receives its notifications. Fill in the sections above, then delete this setup note.
+What counts as a vulnerability is described in the [threat model](docs/threat-model.md), including what is out of scope.

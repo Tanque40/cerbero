@@ -5,7 +5,7 @@
 //! files, terminals and the network. See `docs/languages/rust.md` for the
 //! rules that apply to secret material.
 
-#![deny(clippy::print_stdout, clippy::print_stderr)]
+#![deny(missing_docs, clippy::print_stdout, clippy::print_stderr)]
 
 /// Version of the on-disk vault format that this build writes.
 ///
