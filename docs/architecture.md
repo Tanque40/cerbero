@@ -29,6 +29,7 @@ recovery key (random, shown once) ─────────▶ recovery KEK �
 
 - The data key never changes when the password or recovery key changes; only its wrapped copies are rewritten.
 - The header stores format version, algorithm identifiers, Argon2id parameters, salts and both wrapped data keys. The whole header is authenticated as associated data.
+- The byte-level layout is in the [vault format version 1 specification](format/vault-v1.md).
 
 ## Data flow: opening a vault and using an entry
 
