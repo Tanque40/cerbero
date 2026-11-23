@@ -1,6 +1,6 @@
 # 0005. Lay out vault format version 1 as one encrypted payload with two key slots
 
-- Status: Proposed
+- Status: Accepted
 - Date: 2026-11-23
 - Deciders: @Tanque40
 
@@ -18,7 +18,8 @@
    - *CBOR (`ciborium`) or `postcard` with serde.* Less code to write, but adds a dependency on the most exposed parser, and serde deserializers can leave unwiped copies of secrets in intermediate buffers.
 3. **Default Argon2id parameters.**
    - *64 MiB, t=3, p=4 (RFC 9106 second option).* About 0.12 s in the development container. Kept as the writer minimum.
-   - *256 MiB, t=3, p=4 (chosen).* About 0.6 s in the development container. A vault is opened a few times a day, so a slower unlock buys four times the cost per guess.
+   - *128 MiB, t=3, p=4.* About 0.30 s in the development container. Half the attacker's cost per guess compared with 256 MiB.
+   - *256 MiB, t=3, p=4 (chosen).* About 0.6 s in the development container (0.57 to 0.64 s over three runs). A vault is opened a few times a day, so a slower unlock buys four times the cost per guess.
    - *1 GiB or more.* About 1.8 s at t=2 in the container, and risky on machines with little free memory.
 4. **How the recovery key becomes a key-encryption key.**
    - *Use its 32 random bytes directly (chosen).* It already has 256 bits of entropy, and the slot type in the associated data separates it from other keys. No new crate.
