@@ -18,3 +18,4 @@ Do not rewrite an accepted record to change the decision. Write a new record, se
 | [0002](0002-own-versioned-vault-format.md) | Use our own versioned vault format | Accepted |
 | [0003](0003-argon2id-and-xchacha20-poly1305.md) | Derive keys with Argon2id and encrypt with XChaCha20-Poly1305 | Accepted |
 | [0004](0004-recovery-key.md) | Provide a recovery key from the first version | Accepted |
+| [0005](0005-vault-format-v1.md) | Lay out vault format version 1 as one encrypted payload with two key slots | Accepted |
