@@ -1,0 +1,5 @@
+# Stable rustfmt options only. Run `cargo fmt --all`.
+edition = "2024"
+newline_style = "Unix"
+use_field_init_shorthand = true
+use_try_shorthand = true

@@ -23,6 +23,7 @@ Then, from the repository root:
 
 ```sh
 make check                              # fmt, clippy, tests and cargo-deny
+make lint                               # typos, zizmor, cargo-machete (optional locally, required in CI)
 cargo run -p cerbero-cli -- --version   # run the CLI
 ```
 
@@ -32,7 +33,10 @@ cargo run -p cerbero-cli -- --version   # run the CLI
 | `crates/cerbero-cli` | The `cerbero` command. |
 | `docs/decisions` | Decision records. |
 | `docs/languages/rust.md` | Coding and secret-handling rules. |
+| `docs/architecture.md` | Crates, key hierarchy and data flow. |
+| `docs/threat-model.md` | What Cerbero protects, from whom, and what is out of scope. |
 | `docs/testing.md` | Where tests go and what must be covered. |
+| `scripts/github-settings.sh` | Repository settings applied with `gh`. |
 | `fuzz/` | Fuzz targets (nightly, outside the workspace). |
 
 ## Working together
