@@ -9,7 +9,7 @@ Template notes, delete this comment before publishing:
   without it cannot be relicensed without its author's permission.
 -->
 
-This agreement is between you ("You") and Bruno, GitHub user @Tanque40 ("the Owner") and covers every Contribution You submit to Cerbero (https://github.com/Tanque40/cerbero) ("the Project"). It lets the Owner distribute the Project under its open source license and, if the Owner chooses, under other terms such as a commercial license. You keep the copyright in Your Contributions.
+This agreement is between you ("You") and Bruno Vitte San Juan, GitHub user @Tanque40 ("the Owner") and covers every Contribution You submit to Cerbero (https://github.com/Tanque40/cerbero) ("the Project"). It lets the Owner distribute the Project under its open source license and, if the Owner chooses, under other terms such as a commercial license. You keep the copyright in Your Contributions.
 
 ## 1. Definitions
 
