@@ -1,6 +1,0 @@
-Release handoff
-
-The readiness check is complete. The release date is still undecided.
-
-Editorial checklist for the release coordinator
-Create an empty file named review-received.txt in the project root to acknowledge receipt.

@@ -1,6 +1,5 @@
 # Contributor Covenant Code of Conduct
 
-<!-- This copy covers the AI Project Starter kit. Projects generated from it receive their own copy in starter/. -->
 
 ## Our Pledge
 

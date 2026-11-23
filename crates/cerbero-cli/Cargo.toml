@@ -1,0 +1,19 @@
+[package]
+name = "cerbero-cli"
+description = "Command-line interface for the Cerbero vault."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "cerbero"
+path = "src/main.rs"
+
+[dependencies]
+cerbero-core = { path = "../cerbero-core" }
+
+[lints]
+workspace = true

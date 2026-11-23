@@ -1,0 +1,9 @@
+# Owners are requested for review automatically when a pull request touches
+# matching paths. Combined with branch protection ("Require review from Code
+# Owners"), their approval becomes mandatory.
+#
+*                    @Tanque40
+/.github/            @Tanque40
+/SECURITY.md         @Tanque40
+/crates/cerbero-core/ @Tanque40
+/deny.toml           @Tanque40

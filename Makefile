@@ -1,4 +1,4 @@
 .PHONY: check
 
 check:
-	sh tools/test-template.sh
+	sh checks/run.sh
